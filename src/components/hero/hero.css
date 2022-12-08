@@ -1,0 +1,33 @@
+* {
+    color: rgb(58, 50, 50);
+    text-align: center;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120vh;
+    background-image: url(../imgs/mainImg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.hero-head {
+    padding-bottom: 24px;
+}
+.hero-text {
+    font-size: 16px;
+    padding-bottom: 54px;
+}
+.hero-btn {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 30px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    background-color: #086CF9;
+}

@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: DM Sans;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.nav-logo {
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 197px;
+    text-decoration: none;
+    color: #222222;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    color: #222222;
+    text-decoration: none;
+}
+.nav-btn {
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: #086CF9;
+}
+.ml {
+    margin-left: 67px;
+}
